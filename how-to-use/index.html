@@ -1,0 +1,196 @@
+<!DOCTYPE html><html lang="en"> <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="A quick guide to how Math by First Principles is organized: subjects, chapters, lessons, practice, chapter reviews, and chapter tests."><title>How to Use This Site | Math by First Principles</title><link rel="canonical" href="https://mathbyfirstprinciples.org/how-to-use/"><meta property="og:type" content="website"><meta property="og:site_name" content="Math by First Principles"><meta property="og:title" content="How to Use This Site | Math by First Principles"><meta property="og:description" content="A quick guide to how Math by First Principles is organized: subjects, chapters, lessons, practice, chapter reviews, and chapter tests."><meta property="og:url" content="https://mathbyfirstprinciples.org/how-to-use/"><meta property="og:image" content="https://mathbyfirstprinciples.org/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="Math by First Principles: free, self-study math with full proofs."><meta property="og:locale" content="en_US"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="How to Use This Site | Math by First Principles"><meta name="twitter:description" content="A quick guide to how Math by First Principles is organized: subjects, chapters, lessons, practice, chapter reviews, and chapter tests."><meta name="twitter:image" content="https://mathbyfirstprinciples.org/og-image.png"><meta name="twitter:image:alt" content="Math by First Principles: free, self-study math with full proofs."><meta name="referrer" content="strict-origin-when-cross-origin"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><link rel="preload" href="/fonts/space-grotesk.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="/fonts/jetbrains-mono.woff2" as="font" type="font/woff2" crossorigin><!-- Apply saved theme before first paint to prevent flash of wrong theme. --><script>
+      (function () {
+        try {
+          var t = localStorage.getItem("mfp.theme");
+          if (t === "dark" || t === "light" || t === "soft") {
+            document.documentElement.setAttribute("data-theme", t);
+          } else if (t !== "system") {
+            // Empty (no visit yet), or an unrecognised/stale value -- e.g. "print", removed from
+            // the picker -- default to Light, same as the main script below. "system" is the one
+            // value that means "no override": leave data-theme unset so
+            // @media (prefers-color-scheme) decides, instead of flashing an unrelated theme
+            // before the main script corrects it a moment later.
+            document.documentElement.setAttribute("data-theme", "light");
+          }
+        } catch (e) {
+          document.documentElement.setAttribute("data-theme", "light");
+        }
+      })();
+    </script><!-- Cloudflare Web Analytics.
+         `type='module'` is DELIBERATE and is the snippet Cloudflare itself supplied; it is deployed and
+         reporting. It differs from the `defer` form in Cloudflare's generic published docs, so a review
+         will flag it as a deviation: confirmed working 2026-08-05, do not "correct" it against those
+         docs. Whether it reports can only be checked in the Cloudflare dashboard, never from this repo.
+         See docs/decisions.md for why the beacon is here at all. --><script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon="{&quot;token&quot;: &quot;1426f569423343cbb857cd96ac82d88e&quot;}">
+      </script><!-- End Cloudflare Web Analytics --><link rel="stylesheet" href="/_astro/BaseLayout.CsL6dQ1V.css"><style>h2[data-astro-cid-c2f75kko]{margin-top:2rem}p[data-astro-cid-c2f75kko],ul[data-astro-cid-c2f75kko]{max-width:62ch}li[data-astro-cid-c2f75kko]{margin:.3rem 0}.htu-map[data-astro-cid-c2f75kko]{margin:var(--space-6) 0 var(--space-8);padding:var(--space-6);border:1px solid var(--color-border);border-radius:var(--radius-md);background:var(--color-card-bg)}.htu-map__row[data-astro-cid-c2f75kko]{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem}.htu-map__row--after[data-astro-cid-c2f75kko]{margin-top:var(--space-4)}.htu-box[data-astro-cid-c2f75kko]{font-family:var(--font-display);font-weight:600;font-size:var(--text-sm);padding:.4rem .8rem;border:1px solid var(--color-border);border-radius:var(--radius-sm);background:var(--color-surface);white-space:nowrap}.htu-box--review[data-astro-cid-c2f75kko]{border-color:var(--color-correct-strong);color:var(--color-correct-strong)}.htu-box--test[data-astro-cid-c2f75kko]{border-color:var(--color-accent-alt);color:var(--color-accent-alt)}.htu-arrow[data-astro-cid-c2f75kko]{font-weight:700;color:var(--color-muted)}.htu-map__note[data-astro-cid-c2f75kko]{margin:var(--space-4) 0 0;font-size:var(--text-sm);color:var(--color-muted);max-width:none}
+.breadcrumb[data-astro-cid-qaanghzh]{display:flex;flex-wrap:wrap;align-items:center;gap:.4rem;margin-bottom:var(--space-4);font-family:var(--font-mono);font-size:var(--text-xs);color:var(--color-muted)}.breadcrumb[data-astro-cid-qaanghzh] a[data-astro-cid-qaanghzh]{text-decoration:none;color:var(--color-muted);transition:color .12s}.breadcrumb[data-astro-cid-qaanghzh] a[data-astro-cid-qaanghzh]:hover{color:var(--color-accent)}
+</style></head> <body> <a class="skip-link" href="#main-content">Skip to content</a> <header class="site-header"> <div class="site-header__inner"> <a class="site-header__brand" href="/">Math by <span>First Principles</span></a> <div class="site-header__end">  <nav class="site-header__nav" aria-label="Primary"> <a href="/">Home</a> <details class="nav-menu"> <summary>Subjects</summary> <div class="nav-menu__panel" role="group" aria-label="Subjects"> <a href="/pre-algebra/"> Pre-Algebra </a><a href="/intro-to-algebra/"> Algebra I </a><a href="/algebra-2/"> Algebra II </a> </div> </details> <a href="/how-to-use/" aria-current="page">How to Use</a> <details class="nav-menu"> <summary>More</summary> <div class="nav-menu__panel" role="group" aria-label="More"> <a href="/about/"> About </a><a href="/contact/"> Contact </a><a href="/privacy/"> Privacy </a> </div> </details> </nav> <div class="theme-picker" id="theme-picker" role="radiogroup" aria-label="Theme"> <button type="button" data-set-theme="soft" role="radio">Soft</button> <button type="button" data-set-theme="light" role="radio">Light</button> <button type="button" data-set-theme="dark" role="radio">Dark</button> <button type="button" data-set-theme="system" role="radio">System</button> </div> </div> </div> </header> <main class="page" id="main-content">  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://mathbyfirstprinciples.org/"},{"@type":"ListItem","position":2,"name":"How to Use"}]}</script> <nav class="breadcrumb" aria-label="Breadcrumb" data-astro-cid-qaanghzh> <a href="/" data-astro-cid-qaanghzh>Home</a><span class="breadcrumb__sep" aria-hidden="true" data-astro-cid-qaanghzh>
+/
+</span><span data-astro-cid-qaanghzh>How to Use</span> </nav> <h1 data-astro-cid-c2f75kko>How to use this site</h1> <p class="page-intro" data-astro-cid-c2f75kko>
+Everything here is built to be learned in order, from the ground up. This page shows you how it all
+    fits together so you know where you are and what comes next.
+</p> <div class="htu-map" role="img" aria-label="How the pieces fit together. A subject contains chapters. A chapter contains lessons, and each lesson has practice. After the lessons come the Chapter Review, then the Chapter Test." data-astro-cid-c2f75kko> <div class="htu-map__row" aria-hidden="true" data-astro-cid-c2f75kko> <span class="htu-box" data-astro-cid-c2f75kko>Subject</span> <span class="htu-arrow" data-astro-cid-c2f75kko>→</span> <span class="htu-box" data-astro-cid-c2f75kko>Chapter</span> <span class="htu-arrow" data-astro-cid-c2f75kko>→</span> <span class="htu-box" data-astro-cid-c2f75kko>Lesson</span> <span class="htu-arrow" data-astro-cid-c2f75kko>→</span> <span class="htu-box" data-astro-cid-c2f75kko>Practice</span> </div> <div class="htu-map__row htu-map__row--after" aria-hidden="true" data-astro-cid-c2f75kko> <span class="htu-box htu-box--review" data-astro-cid-c2f75kko>Chapter Review</span> <span class="htu-arrow" data-astro-cid-c2f75kko>→</span> <span class="htu-box htu-box--test" data-astro-cid-c2f75kko>Chapter Test</span> </div> <p class="htu-map__note" aria-hidden="true" data-astro-cid-c2f75kko>
+Work through the lessons and their practice, then use the Chapter Review and the Chapter Test.
+</p> </div> <h2 data-astro-cid-c2f75kko>Subjects, chapters, and lessons</h2> <p data-astro-cid-c2f75kko>
+A subject is a whole course, like Pre-Algebra or Algebra I. Each subject is split into chapters,
+    and each chapter is a group of lessons on one theme. Start at a subject, pick a chapter, and work
+    through its lessons in order.
+</p> <h2 data-astro-cid-c2f75kko>Chapter Overview</h2> <p data-astro-cid-c2f75kko>
+Every chapter opens with an overview. It introduces what the chapter is about and previews each
+    lesson, so you can see where you are headed before you begin. It links to the chapter's lessons and,
+    once they are ready, its Chapter Review and Chapter Test.
+</p> <h2 data-astro-cid-c2f75kko>Lessons</h2> <p data-astro-cid-c2f75kko>
+A lesson builds each idea from first principles: it starts with the problem the idea solves, then
+    shows where the rule comes from instead of just handing it to you. Along the way you get worked
+    examples and a few quick checks for understanding so you can test yourself as you read.
+</p> <h2 data-astro-cid-c2f75kko>Practice</h2> <p data-astro-cid-c2f75kko>
+Practice comes in two kinds: <strong data-astro-cid-c2f75kko>MCQ</strong> (multiple-choice questions) and <strong data-astro-cid-c2f75kko>FRQ</strong>
+(free-response questions).
+</p> <p data-astro-cid-c2f75kko>The MCQs are split into sets that gradually get harder:</p> <ul data-astro-cid-c2f75kko> <li data-astro-cid-c2f75kko>Three core sets: <strong data-astro-cid-c2f75kko>Foundational</strong>, <strong data-astro-cid-c2f75kko>Intermediate</strong>, and <strong data-astro-cid-c2f75kko>Challenge</strong>.</li> <li data-astro-cid-c2f75kko>Two optional Additional Practice sets, for extra reps once you have the core sets down.</li> </ul> <p data-astro-cid-c2f75kko>
+If you already feel confident about a lesson, you can skip the Foundational and Intermediate sets
+    and go straight to the Challenge set.
+</p> <p data-astro-cid-c2f75kko>
+Where a lesson has FRQs, they give you space to write out fuller solutions in your own words. Every
+    question, MCQ or FRQ, comes with a full worked solution you can reveal whenever you like. There is
+    no timer and no score to chase.
+</p> <h2 data-astro-cid-c2f75kko>Chapter Review</h2> <p data-astro-cid-c2f75kko>
+The Chapter Review is a quick refresher of the chapter's key ideas, gathered in one place. Use it
+    to bring everything back to mind before you take the Chapter Test.
+</p> <h2 data-astro-cid-c2f75kko>Chapter Test</h2> <p data-astro-cid-c2f75kko>
+The Chapter Test pulls questions from across the whole chapter, so you can check that all the
+    pieces fit together, not just one lesson at a time.
+</p> <h2 data-astro-cid-c2f75kko>Advanced lessons</h2> <p data-astro-cid-c2f75kko>
+Some lessons are marked Advanced. They go beyond the core course, so they are optional: you can
+    skip an Advanced lesson, or explore it if you are curious.
+</p> <h2 data-astro-cid-c2f75kko>Printing</h2> <p data-astro-cid-c2f75kko>
+If you would rather work on paper, you can print the practice sets, free-response sets, chapter
+    reviews, and chapter tests. Each of those pages has a print button.
+</p> <p data-astro-cid-c2f75kko>
+In the print dialog you can also choose to save as a PDF (or print to PDF) instead of printing on
+    paper, so you can keep a copy on your device.
+</p> <h2 data-astro-cid-c2f75kko>Your progress</h2> <p data-astro-cid-c2f75kko>
+You do not need an account. The answers you enter, your progress, and your theme choice are saved
+    right in your own browser, on this device. The <a href="/privacy/" data-astro-cid-c2f75kko>privacy page</a> says
+    exactly what is stored and what a page view sends.
+</p>  </main> <footer class="site-footer"> <div class="site-footer__inner">  <div class="site-footer__top"> <p class="site-footer__text">Free, self-study math from first principles. No ads, no login.</p> <nav class="site-footer__nav" aria-label="Footer"> <a href="/about/">About</a> <span aria-hidden="true">·</span> <a href="/privacy/">Privacy</a> <span aria-hidden="true">·</span> <a href="/contact/">Contact</a> </nav> </div> <p class="site-footer__legal">
+© 2026 Math by First Principles · Icons by <a href="https://lucide.dev" target="_blank" rel="noopener noreferrer">Lucide</a> (ISC)
+</p> </div> </footer> <!-- Nav menus: <details> already handles open/close, keyboard and touch. This adds the behaviours it
+         does not: close on Escape, close when a click lands outside an open menu, close any other open
+         menu when one opens (so two panels never overlap), and, for a MOUSE pointer, open on hover and
+         close on leave (unless the keyboard is inside the menu). Touch and pen fall through to the native
+         tap toggle. Hover-close relies on the .nav-menu__panel::before bridge in global.css to span the
+         trigger-to-panel gap. --> <script>
+      (function () {
+        var menus = Array.prototype.slice.call(document.querySelectorAll(".nav-menu"));
+        if (!menus.length) return;
+
+        function closeAll(except) {
+          menus.forEach(function (m) {
+            if (m !== except) m.open = false;
+          });
+        }
+
+        menus.forEach(function (m) {
+          m.addEventListener("toggle", function () {
+            if (m.open) closeAll(m);
+          });
+
+          // Hover-to-open on a real pointer only. pointerType gates out touch and pen, so a TAP falls
+          // through to the native <details> toggle (tap opens, tap closes) instead of a mouseenter and a
+          // click fighting each other on a touchscreen laptop. The panel is a child of .nav-menu, and a
+          // CSS bridge spans the gap to it, so moving from the summary onto the panel is not a leave.
+          m.addEventListener("pointerenter", function (e) {
+            if (e.pointerType === "mouse") m.open = true;
+          });
+          // Do NOT hover-close a menu the keyboard is inside: one opened or being read with the keyboard
+          // must not vanish because the mouse drifted across and off it.
+          m.addEventListener("pointerleave", function (e) {
+            if (e.pointerType === "mouse" && !m.contains(document.activeElement)) m.open = false;
+          });
+        });
+
+        document.addEventListener("keydown", function (e) {
+          if (e.key !== "Escape") return;
+          var open = menus.filter(function (m) {
+            return m.open;
+          });
+          if (!open.length) return;
+          open.forEach(function (m) {
+            m.open = false;
+          });
+          // Return focus to the summary of the menu that was open, per the disclosure pattern.
+          var s = open[0].querySelector("summary");
+          if (s) s.focus();
+        });
+
+        document.addEventListener("click", function (e) {
+          if (e.target.closest && e.target.closest(".nav-menu")) return;
+          closeAll(null);
+        });
+      })();
+    </script> <script>
+      (function () {
+        var THEMES = ["soft", "light", "dark", "system"];
+
+        function applyTheme(t) {
+          if (t === "system") {
+            document.documentElement.removeAttribute("data-theme");
+          } else {
+            document.documentElement.setAttribute("data-theme", t);
+          }
+          try {
+            localStorage.setItem("mfp.theme", t);
+          } catch (e) {}
+          document.querySelectorAll("[data-set-theme]").forEach(function (btn) {
+            var checked = btn.getAttribute("data-set-theme") === t;
+            btn.setAttribute("aria-checked", checked ? "true" : "false");
+            // Roving tabindex (WAI-ARIA radiogroup pattern): only the checked segment tabs to.
+            btn.setAttribute("tabindex", checked ? "0" : "-1");
+          });
+        }
+
+        // Initialise from storage. An unrecognised value -- including "print", removed from this
+        // control -- falls back to "light", the same path a first-time visitor takes.
+        var saved;
+        try {
+          saved = localStorage.getItem("mfp.theme");
+        } catch (e) {}
+        applyTheme(THEMES.indexOf(saved) >= 0 ? saved : "light");
+
+        var picker = document.getElementById("theme-picker");
+        if (picker) {
+          picker.addEventListener("click", function (e) {
+            var target = e.target;
+            while (target && target !== picker && !target.getAttribute("data-set-theme")) {
+              target = target.parentElement;
+            }
+            if (target && target.getAttribute("data-set-theme")) {
+              applyTheme(target.getAttribute("data-set-theme"));
+              target.focus();
+            }
+          });
+
+          // Arrow keys move focus AND selection between segments; Home/End jump to the ends.
+          picker.addEventListener("keydown", function (e) {
+            var items = Array.from(picker.querySelectorAll("[data-set-theme]"));
+            var idx = items.indexOf(document.activeElement);
+            if (idx === -1) return;
+            var next = null;
+            if (e.key === "ArrowRight" || e.key === "ArrowDown") {
+              next = items[(idx + 1) % items.length];
+            } else if (e.key === "ArrowLeft" || e.key === "ArrowUp") {
+              next = items[(idx - 1 + items.length) % items.length];
+            } else if (e.key === "Home") {
+              next = items[0];
+            } else if (e.key === "End") {
+              next = items[items.length - 1];
+            }
+            if (next) {
+              e.preventDefault();
+              applyTheme(next.getAttribute("data-set-theme"));
+              next.focus();
+            }
+          });
+        }
+      })();
+    </script> </body> </html>
