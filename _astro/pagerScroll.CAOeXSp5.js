@@ -1,0 +1,1 @@
+function e(t,i){if(!t||(t.scrollIntoView({block:"nearest"}),!i))return;const n=i.getBoundingClientRect();Math.min(n.bottom,window.innerHeight)-Math.max(n.top,0)>=Math.min(n.height,32)||t.scrollIntoView({block:"start"})}export{e as s};
